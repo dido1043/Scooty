@@ -59,7 +59,9 @@ html::-webkit-scrollbar-thumb:hover {
 nav {
     position: fixed;
     top: 0px;
-    width: 1500px;
+    left: 0px;
+    right: 0px;
+    width: 1800px;
     height: 70px;
     background-color: #e6e5e5;
 }
@@ -94,6 +96,19 @@ nav {
 
 .nav-bar nav li button {
     background-color: var(--prim-color);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.nav-bar nav li button:hover {
+    background-color: #d3177f;
     border: none;
     border-radius: 10px;
     color: white;
@@ -223,7 +238,7 @@ nav {
 
 .content-2 {
     margin-top: 0px;
-    margin-left: 200px;
+    margin-left: 100px;
     width: 1400px;
 }
 
@@ -241,6 +256,106 @@ nav {
 }
 
 .images {
-    top: 300px;
+    margin-top: 0px;
     margin-right: 20rem;
+}
+
+.content-2 li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 100px;
+    border: 2px solid #e6e5e5;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px #0000000d;
+    padding-top: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+
+/*CONTENT3*/
+
+.content-3 {
+    position: flex;
+    background-color: #261447;
+    color: #ffffff;
+    left: 0px;
+    right: 0px;
+    height: 800px;
+    z-index: -1;
+    background-image: url(images/blob.png);
+    background-repeat: no-repeat;
+    background-size: 450px 550px;
+    background-position: bottom 150px right 300px;
+}
+
+.content-3 ul {
+    list-style-type: none;
+}
+
+.content-3 h2 {
+    margin-left: 100px;
+}
+
+.content-3 h4 {
+    margin-left: 100px;
+}
+
+.content-3 p {
+    margin-left: 130px;
+}
+
+#other-background {
+    height: 750px;
+    background-image: url(images/electric\ scooter\ profile\ view.png);
+    background-repeat: no-repeat;
+    background-size: 550px 650px;
+    background-position: bottom 50px right 200px;
+}
+
+
+/*CONTENT4*/
+
+.content-4 {
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 1400px;
+    list-style-type: none;
+}
+
+.content-4 h2 {
+    margin-left: 650px;
+    text-decoration: underline #3ff1aadd;
+    text-decoration-style: dashed;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 5px;
+}
+
+.content-4 ul {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.content-4 li {
+    display: inline-block;
+    margin-left: 130px;
+    border: 2px solid #e6e5e5;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px #0000000d;
+    padding-top: 10px;
+    width: 350px;
+    height: 150px;
+}
+
+.content-4 li p {
+    color: gray;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content-4 li h5 {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 30px;
 }
