@@ -249,6 +249,11 @@ nav {
     font-style: italic;
 }
 
+.content-2 h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
 .content-2 span {
     text-decoration: underline #3ff1aadd;
     text-decoration-style: dashed;
@@ -357,5 +362,71 @@ nav {
 .content-4 li h5 {
     font-size: 46px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
+}
+
+
+/*CONTENT5*/
+
+.content-5 {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 1400px;
+    text-align: center;
+    height: 800px;
+}
+
+#n {
+    color: gray;
+}
+
+.content-5 h2 {
+    margin-top: 0px;
+    font-size: 36px;
+}
+
+.content-5 h2 span {
+    text-decoration: underline #3ff1aadd;
+    text-decoration-style: dashed;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+}
+
+
+/*-----background-----*/
+
+.content-5 {
+    background-image: url(images/Scooter\ Illustration\ 3.png );
+    background-repeat: no-repeat;
+    background-size: 450px 550px;
+    background-position: bottom 100px right 600px;
+}
+
+
+/*-------------------*/
+
+.content-5 ul {
+    margin-top: 200px;
+    margin-left: 100px;
+    list-style-type: none;
+}
+
+.content-5 li {
+    background-color: #ffffff;
+    border: 2px solid #e6e5e5;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px #0000000d;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.content-5 li p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#z {
+    margin-top: 10px;
+    margin-left: 700px;
 }
