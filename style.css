@@ -61,7 +61,7 @@ nav {
     top: 0px;
     left: 0px;
     right: 0px;
-    width: 1800px;
+    width: 1920px;
     height: 70px;
     background-color: #e6e5e5;
 }
@@ -429,4 +429,66 @@ nav {
 #z {
     margin-top: 10px;
     margin-left: 700px;
+}
+
+
+/*CONTENT6*/
+
+.content-6 {
+    position: flex;
+    background-color: #261447;
+    color: #ffffff;
+    left: 0px;
+    right: 0px;
+    height: 600px;
+    background-color: #261447;
+    background-image: url(images/Mask\ Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 550px 600px;
+    background-position: bottom 0px right 900px;
+}
+
+.content-6 section {
+    text-align: start;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
+.content-6 section p {
+    margin-top: 25px;
+}
+
+.gray {
+    color: gray;
+}
+
+.content-6 h2 span {
+    text-decoration: underline #3ff1aadd;
+    text-decoration-style: dashed;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+}
+
+.content-6 button {
+    background-color: #3ff1aadd;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content-6 button:hover {
+    background-color: #22ac74dd;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
 }
